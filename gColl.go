@@ -1,5 +1,5 @@
 /*
-The underlying objective here is to observe and analyze the Garbage collection & 
+The underlying objective here is to observe and analyze the Garbage Collection & 
 memory metrics of a simple app that is a basic operation for a http server writing "Hello World" .
 It is mainly used as a trigger to update & observe the GC metrics.
 Each time the HTTP endpoint is accessed, it not only responds with 'Hello World' but also invokes 
