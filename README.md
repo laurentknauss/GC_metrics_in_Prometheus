@@ -30,7 +30,8 @@ Run  the server (`go run gColl.go`).<br>
 The server will start and listen on a predefined port (e.g., 8084).<br>
 
 Test the endpoints.<br>
-You can test the server's endpoints using curl. For example:  `curl http://localhost:8084`<br>
+You can test the server's endpoints using curl. For example:  `curl http://localhost:8084`<br>  
+
 Monitoring  
 
 If you have set up Prometheus and Grafana, you can monitor the server's performance and system metrics.<br>
