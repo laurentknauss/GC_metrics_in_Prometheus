@@ -33,7 +33,7 @@ The server exposes several endpoints for metrics collection.<br>
 
 
 
-**Prometheus can natively collect various memory-related statistics, including those provided by the Go runtime.**<br>
+**Prometheus can natively collect various memory-related statistics, including those provided by the Go runtime.**  
 &nsbp; 
 The `go_memstats_alloc_bytes`  is one such native metric. It represents the current  number of bytes allocated  in the heap, <br>
 which is updated at each GC cycle &  is similar to `mem.Alloc' present in our Go codebase .
