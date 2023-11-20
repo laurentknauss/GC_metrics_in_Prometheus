@@ -16,7 +16,7 @@ It demonstrates basic HTTP request handling in Go and includes features to monit
 
 
     
-Getting Started / Prerequisites<br>
+<u> Getting Started / Prerequisites </u><br>
 
 Go (version 1.x or later)<br>
 curl (for testing endpoints)<br>
