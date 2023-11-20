@@ -22,18 +22,17 @@ Go (version 1.x or later)<br>
 curl (for testing endpoints)<br>
 Monitoring tools :  Prometheus and Grafana<br>
 
-Installation<br>
+## Installation<br>
 
 
 Clone the repository.<br>
 Run  the server (`go run gColl.go`).<br>
 The server will start and listen on a predefined port (e.g., 8084).<br>
 
-Test the endpoints.<br>
+## Test the endpoints.<br>
 You can test the server's endpoints using curl. For example:  `curl http://localhost:8084`<br>  
 
-Monitoring  
-
+## Monitor
 If you have set up Prometheus and Grafana, you can monitor the server's performance and system metrics.<br>
 The server exposes several endpoints for metrics collection.<br>
 
