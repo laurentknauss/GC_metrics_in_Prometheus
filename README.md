@@ -4,32 +4,29 @@ Monitoring  the Garbage collection  of a basic http server collected via Prometh
 
 This repository contains a simple Go web server application.<br>
 It demonstrates basic HTTP request handling in Go and includes features to monitor system metrics like garbage collection.
+&nsbp;
 
-#Features
+# Features
   - Basic HTTP server implementation in Go.
   - Endpoints for testing load and monitoring server responses.
   - Integration examples for system metrics monitoring (garbage collection, memory usage, disk I/O).
 &nsbsp;
 
     
-Getting Started
+Getting Started<br>
 Prerequisites<br>
 Go (version 1.x or later)<br>
-curl (for testing endpoints)
+curl (for testing endpoints)<br>
 Monitoring tools :  Prometheus and Grafana
 Installation
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/go-web-server-example.git
-cd go-web-server-example
+
+git clone 
+cd 
 Running the Server
 To run the server, use the following command:
-
-bash
-Copy code
-go run main.go
+`go run gColl.go`
 The server will start and listen on a predefined port (e.g., 8084).
 
 Testing the Endpoints
