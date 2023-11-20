@@ -10,31 +10,26 @@ It demonstrates basic HTTP request handling in Go and includes features to monit
   - Basic HTTP server implementation in Go.
   - Endpoints for testing load and monitoring server responses.
   - Integration examples for system metrics monitoring (garbage collection, memory usage, disk I/O).
-&nsbsp;
+&nsbp;
 
     
-Getting Started<br>
-Prerequisites<br>
+Getting Started / Prerequisites<br>
+
 Go (version 1.x or later)<br>
 curl (for testing endpoints)<br>
-Monitoring tools :  Prometheus and Grafana
-Installation
-Clone the repository:
+Monitoring tools :  Prometheus and Grafana<br>
 
+Installation<br>
 
-git clone 
-cd 
-Running the Server
-To run the server, use the following command:
-`go run gColl.go`
-The server will start and listen on a predefined port (e.g., 8084).
+Clone the repository.<br>
+Run  the server (`go run gColl.go`).<br>
+The server will start and listen on a predefined port (e.g., 8084).<br>
 
-Testing the Endpoints
-You can test the server's endpoints using curl. For example:
-
-curl http://localhost:8084
+Test the endpoints.<br>
+You can test the server's endpoints using curl. For example:  `curl http://localhost:8084`<br>
 Monitoring
-If you have set up Prometheus and Grafana, you can monitor the server's performance and system metrics. The server exposes several endpoints for metrics collection.
+If you have set up Prometheus and Grafana, you can monitor the server's performance and system metrics.<br>
+The server exposes several endpoints for metrics collection.<br>
 
 
 **Prometheus can natively collect various memory-related statistics, including those provided by the Go runtime.**<br>
