@@ -35,11 +35,17 @@ The server will start and listen on a predefined port (e.g., 8084).
 Testing the Endpoints
 You can test the server's endpoints using curl. For example:
 
-bash
-Copy code
 curl http://localhost:8084
 Monitoring
 If you have set up Prometheus and Grafana, you can monitor the server's performance and system metrics. The server exposes several endpoints for metrics collection.
+
+
+**Prometheus can natively collect various memory-related statistics, including those provided by the Go runtime.**<br>
+
+The `go_memstats_alloc_bytes`  is one such metric. It represents the current  number of bytes allocated  in the heap , which is updated at each GC cycle.<br>
+which is similar to `mem.Alloc' present in our Go codebase .
+
+
 
 
 
