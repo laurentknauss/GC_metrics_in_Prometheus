@@ -4,13 +4,16 @@ Monitoring  the Garbage collection  of a basic http server collected via Prometh
 
 This repository contains a simple Go web server application.<br>
 It demonstrates basic HTTP request handling in Go and includes features to monitor system metrics like garbage collection.
-&nsbp;
+
+
+
 
 # Features
-  - Basic HTTP server implementation in Go.
-  - Endpoints for testing load and monitoring server responses.
-  - Integration examples for system metrics monitoring (garbage collection, memory usage, disk I/O).
-&nsbp;
+  - Basic HTTP server implementation in Go.<br>
+  - Endpoints for testing load and monitoring server responses.<br>
+  - Integration examples for system metrics monitoring (garbage collection, memory usage, disk I/O).<br>
+
+
 
     
 Getting Started / Prerequisites<br>
@@ -20,6 +23,7 @@ curl (for testing endpoints)<br>
 Monitoring tools :  Prometheus and Grafana<br>
 
 Installation<br>
+
 
 Clone the repository.<br>
 Run  the server (`go run gColl.go`).<br>
